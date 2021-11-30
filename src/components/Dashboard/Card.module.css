@@ -1,0 +1,36 @@
+.Card {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.829);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  width: 22%;
+  margin-top: 10px;
+  color: #4f4f4f;
+  height: 40vh;
+  text-align: center;
+  font-size: 1.2rem;
+  transition: 0.2s all ease;
+}
+
+.Heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.Card > div > p {
+  margin: 10px;
+}
+
+.Card span {
+  font-weight: 500;
+}
+
+.Card:hover {
+  background: rgba(255, 255, 255, 0.664);
+}

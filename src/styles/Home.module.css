@@ -1,0 +1,113 @@
+.Container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80vh;
+}
+
+.Branding {
+  width: 50%;
+  color: white;
+}
+
+.Branding .MarketingText {
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  color: white;
+}
+.Branding p {
+  margin: 10px auto;
+  width: 85%;
+  text-align: justify;
+}
+
+.Branding .MarketingText3 {
+  text-align: left;
+}
+
+.Form {
+  width: 50%;
+  position: relative;
+}
+
+.Form img {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+}
+
+.Hamburger {
+  display: none;
+  width: 10%;
+}
+
+.ButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.ButtonContainer a {
+  background-color: rgba(25, 87, 122, 1);
+  color: white;
+  padding: 10px;
+  border-radius: 100px;
+  font-family: 'Poppins', sans-serif;
+  width: 25%;
+  font-weight: 600;
+  text-align: center;
+  transition: 0.3s all ease-out;
+}
+
+.ButtonContainer a:hover {
+  background-color: rgba(2, 0, 36, 1);
+  transform: rotateZ(5deg);
+}
+
+@media (max-width: 768px) {
+  .Container {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  }
+  .Branding {
+    width: 100%;
+  }
+}
+
+@media (max-width: 555px) {
+  .Branding .MarketingText {
+    font-size: 1.5rem;
+  }
+
+  .Form {
+    width: 60%;
+  }
+}
+
+@media (max-width: 425px) {
+  .Container {
+    height: 100%;
+  }
+  .Branding .MarketingText {
+    font-size: 1.2rem;
+  }
+  .Branding p {
+    font-size: 0.8rem;
+  }
+  .ButtonContainer a {
+    font-size: 0.8rem;
+    width: 45%;
+  }
+}
+
+@media (max-width: 375px) {
+  .Branding .MarketingText {
+    font-size: 1rem;
+  }
+  .Branding p {
+    text-align: center;
+    width: 95%;
+  }
+}

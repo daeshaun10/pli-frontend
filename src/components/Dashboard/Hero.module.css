@@ -1,0 +1,25 @@
+.Container {
+  width: 90%;
+  margin: auto;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #ebebeb;
+  color: #4f4f4f;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.27);
+}
+
+.Heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.Content {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+}

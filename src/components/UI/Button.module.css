@@ -1,0 +1,36 @@
+.Button {
+  background: rgba(240, 240, 240, 0.75);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  color: rgba(25, 87, 122, 1);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 15px 20px;
+  margin-left: 25%;
+  width: 50%;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.2s all ease;
+}
+
+.Button:hover {
+  background: rgba(189, 189, 189, 0.75);
+}
+
+@media (max-width: 780px) {
+  .Button {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 320px) {
+  .Button {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+}

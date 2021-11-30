@@ -1,0 +1,57 @@
+.Card {
+  width: 100%;
+  margin: auto;
+  padding: 20px 25px;
+  display: flex;
+  color: #4f4f4f;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 100px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.18);
+}
+
+.Card p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  width: 90%;
+  text-align: left;
+}
+
+.Card .ButtonContainer {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Card .ButtonContainer button {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.Card .ButtonContainer .ButtonRed {
+  background-color: #ec9292;
+}
+
+.Card .ButtonContainer .ButtonGreen {
+  background-color: #a2f0af;
+}
+
+.Update {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 1024px) {
+  .Card p {
+    width: 80%;
+  }
+  .Card .ButtonContainer {
+    width: 20%;
+  }
+}

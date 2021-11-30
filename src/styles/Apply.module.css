@@ -1,0 +1,129 @@
+.Container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Main h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+}
+
+.Header {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Header > div {
+  width: 15%;
+}
+
+.Slider {
+  width: 15%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: orangered;
+  padding: 5px 10px;
+  border-radius: 100px;
+}
+
+.Add {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  color: orangered;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -35px;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+
+.Add:hover {
+  background-color: palegoldenrod;
+}
+
+.FormContainer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Form {
+  width: 40%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #a8a8a8;
+  height: 53vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.Form h1 {
+  text-align: center;
+  font-weight: 900;
+}
+
+.Select {
+  width: 100%;
+  margin: auto;
+  border: none;
+  outline: none;
+  border-radius: 100px;
+  height: 50px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: #4f4f4f;
+  color: rgb(179, 179, 179);
+  transition: 0.2s all ease;
+}
+
+.Form > div {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Form > div > p {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+  font-weight: 100;
+  text-align: left;
+}
+
+.Form button {
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  background-color: #4f4f4f;
+  transition: 0.2s all ease;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgb(179, 179, 179);
+}
+
+.Form button:hover,
+.Select:hover {
+  background-color: #838383;
+}

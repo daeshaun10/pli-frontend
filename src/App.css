@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+/*font-family: 'Indie Flower', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/*font-family: 'Alfa Slab One', cursive;*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background: rgb(2, 0, 36);
+  background: linear-gradient(
+    159deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 117, 1) 0%,
+    rgba(197, 47, 230, 1) 0%,
+    rgba(161, 104, 231, 1) 49%,
+    rgba(105, 197, 221, 1) 100%
+  ); */
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  animation-duration: 5000ms;
+  /* animation-name: bganime; */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(25, 87, 122, 1) 0%,
+    rgba(197, 47, 230, 1) 0%,
+    rgba(25, 87, 122, 1) 0%,
+    rgba(8, 30, 43, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+@keyframes bganime {
+  0% {
+    background-color: rgb(45, 127, 250);
+  }
+  100% {
+    background-color: rgb(255, 91, 154);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  color: rgb(221, 221, 221);
+}
+
+.error {
+  font-size: 0.8rem;
+  text-align: right;
+  color: white;
+}
+
+@media (max-width: 425px) {
+  .error {
+    text-align: center;
+    font-size: 0.7rem;
+  }
+}

@@ -1,0 +1,70 @@
+.Card {
+  width: 100%;
+  margin: auto;
+  padding: 20px 25px;
+  display: flex;
+  color: #4f4f4f;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.27);
+}
+
+.Card .Key {
+  font-weight: 500;
+}
+
+.Card .Value {
+  font-weight: 300;
+  text-align: right;
+  float: right;
+}
+
+.Card .Container {
+  width: 35%;
+  height: max-content;
+}
+
+.Card .Container > p {
+  margin-bottom: 10px;
+}
+
+.Card .Container > p:last-child {
+  margin-bottom: 0;
+}
+
+.Card .ButtonContainer {
+  width: 20%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: column;
+  align-self: center;
+  height: 60px;
+}
+
+.Card .ButtonContainer button {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.Card .ButtonContainer .ButtonRed {
+  background-color: #ec9292;
+}
+
+.Card .ButtonContainer .ButtonGreen {
+  background-color: #a2f0af;
+}
+
+@media (max-width: 827px) {
+  .Card .Container {
+    width: 42%;
+  }
+  .Card .ButtonContainer {
+    width: 10%;
+  }
+}
